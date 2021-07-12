@@ -1,0 +1,198 @@
+/* ------------------Sigup/register Page CSS--------------------------------------------- */
+.signup ,.signin{
+background-color: #f8f9fa!important;
+display: flex;
+}
+/* .signup {
+    height: 85vh;
+} */
+.sign-in, .signup {
+    display: grid;
+    place-items: center;
+}
+.signup .container {
+  
+    background: #fff;
+    margin: 30px auto;
+    box-shadow: 0 15px 16.83px 0.17px rgb(0 0 0 / 5%);
+    -moz-box-shadow: 0 15px 16.83px .17px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 15px 16.83px 0.17px rgb(0 0 0 / 5%);
+    -o-box-shadow: 0 15px 16.83px .17px rgba(0,0,0,.05);
+    -ms-box-shadow: 0 15px 16.83px .17px rgba(0,0,0,.05);
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+}
+.signin-container
+{   
+    background: #fff;
+    margin: 30px auto;
+    box-shadow: 0 15px 16.83px 0.17px rgb(0 0 0 / 5%);
+    -moz-box-shadow: 0 15px 16.83px .17px rgba(0,0,0,.05);
+    -webkit-box-shadow: 0 15px 16.83px 0.17px rgb(0 0 0 / 5%);
+    -o-box-shadow: 0 15px 16.83px .17px rgba(0,0,0,.05);
+    -ms-box-shadow: 0 15px 16.83px .17px rgba(0,0,0,.05);
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+ 
+}
+.signin-content,.signup-content {
+    padding: 75px 0;
+    display: flex;
+}
+.signin-form,.signup-form {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-left: 34px;
+}
+.signin-form, .signin-image, .signup-form {
+    /* width: 50%; */
+    overflow: hidden;
+}
+.signin h2 ,.signup h2 {
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #222;
+    font-family: "Poppins",sans-serif;
+    font-size: 36px;
+}
+.register-form {
+    width: 100%;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    color: #222;
+}
+.signup-image ,.signin-image {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+input ,.signin-form input{
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+    outline:none;
+}
+
+figure {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.form-submit {
+   text-decoration: none;
+  background: hsl(205, 78%, 60%);
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 0.1rem;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  
+}
+.signup img ,.signin img {
+    width: 350px; 
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: drop-shadow(5px 0 3px rgba(0,0,0,.05));
+    filter: drop-shadow(5px 0 3px rgba(0,0,0,.05));
+}
+@media screen and (max-width:768px)
+
+ {
+
+              
+signin-form, .signin-image, .signup-form, .signup-image {
+    width: auto;
+} 
+.signin-content, .signup-content {
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -o-flex-direction: column;
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center;
+}
+.signin-image, .signup-form {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.signin-image {
+    margin-top: 50px;
+    order: 2;
+    -moz-order: 2;
+    -webkit-order: 2;
+    
+}
+.signin-form {
+    order: 1;
+    -moz-order: 1;
+    -webkit-order: 1;
+    -o-order: 1;
+    -ms-order: 1;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 30px;
+}
+.form-title {
+    text-align: center;
+}
+label {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    color: #222;
+}
+.form-button {
+    text-align: center;
+}
+    
+}
+
+@media screen and (max-width: 1200px){
+.container {
+    width: calc(100% - 30px);
+    max-width: 100%;
+    font-family: sans-serif;
+}
+}

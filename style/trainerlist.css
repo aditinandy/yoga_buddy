@@ -1,0 +1,270 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    background: #d8f4f5;
+}
+
+.fr-right-detail-box {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    background-color: #FFF;
+    
+}
+.fr-right-detail-box .fr-right-detail-content {
+    overflow: hidden;
+    position: relative;
+}
+.fr-right-details-products {
+    padding: 20px;
+}
+.fr-right-detail-box .fr-right-detail-content .fr-right-views ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.fr-right-detail-box .fr-right-detail-content .fr-right-views ul li span {
+    font-size: 14px;
+    color: #777;
+}
+.fr-right-detail-box .fr-right-detail-content .fr-right-views ul li .fa-check {
+    background-color: #DDD;
+    color: #fff;
+    padding: 3px;
+    border-radius: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.fr-right-detail-box .fr-jobs-price {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.fr-jobs-price .style-hd {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #242424;
+}
+
+.style-hd img{
+    width: 50px;
+    height: 50px;
+}
+.fr-right-detail-box .fr-right-detail-content .fr-right-details2 {
+    width: 80%;
+    margin-bottom: 15px;
+}
+a {
+    color: inherit;
+
+    text-decoration: none;
+}
+
+/* Image CSS */
+.imageblock{
+        width: 208px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.tcenter {
+    text-align: center!important;
+}
+
+.image-left {
+    float: left!important;
+}
+/* image css end */
+.country {
+    font-size: 12px;
+}
+
+.utagline {
+    
+
+    font-weight: bold;
+    color: #666766;
+}
+
+
+.location ,.time_ago_small
+{
+ background-color: rgba(255, 180, 19, 0.2);
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.time_ago_small{
+    margin: 0 20px;
+}
+.info-details{
+    margin-top: 12px;
+}
+.info-details p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* side card  */
+.clearfix {
+    clear: both;
+}
+.top-space {
+    padding-top: 8px!important;
+}
+.border-left {
+    border-left: 1px solid #d9d9d9;
+}
+.tb-space {
+    padding: 0 10px;
+}
+.rate_perhour {
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.clearfix a{
+    margin: 0 4px;
+}
+
+.top-smspace{
+    display: flex;
+    align-items: center;
+    
+}
+.top-smspace btn{
+    
+   
+    border-radius: 2px;
+    padding: 7px 12px !important;
+
+}
+.top-smspace a{
+    margin: 0 5px;
+}
+.btn-link{
+    border-color: transparent;
+    color: #3bafda;
+    text-decoration: none !important;
+    font-weight: 500;
+}
+.btn-link i{
+    margin: 0 8px;
+}
+.rate_perhour
+{
+    font-weight: 500;
+}
+
+/* for stars/Rating */
+.info-details .gold
+{
+    color:#f7c65f ;
+}
+.info-details i{
+    color: #eee;
+}
+
+/* For Responsiveness */
+.ul-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.display_box {
+     padding: 10px 0; 
+    min-height: 150px;
+    list-style: none;
+    border-bottom: 1px solid #ececec;
+}
+@media (max-width: 767px){
+.hidden-xs {
+    display: none!important;
+}
+}
+@media (min-width: 1200px)
+{
+.hidden-lg {
+    display: none!important;
+}
+}
+.sp-text-center{
+    text-align: center;
+}
+@media (max-width: 767px){
+.pull-left{
+    float: none !important;
+}
+}
+.trainer-name{
+    color:#0399f0;
+}
+.skills-known
+{
+    font-weight: 600;
+    color: #000;
+}
+.skills-box {
+    border-radius: 5px;
+    padding: 0 11px;
+    margin-left: 5px;
+    color: #000;
+    font-size: 13px!important;
+    font-weight: 500;
+    margin-top: 2px;
+    display: inline-block;
+    line-height: 17px;
+    background-color:#ffd895;;
+}
+.appointment-btn
+{
+    background-color: #0399f0;
+    width: 170px;
+    height: 50px;
+    padding: 2px 0;
+    color:#fff;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 700 !important;
+    font-family: sans-serif;
+    border: none;
+    font-size:13px
+}
+.button-small-font{
+    font-size: 11px;
+    color: #fff;
+}
+.fa-check{
+    background-color: #DDD;
+    color: #fff;
+    padding: 3px;
+    border-radius: 30px;
+    font-size: 10px;
+    margin-right: 5px;
+
+}
+
+.fr-right-views span{
+        color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.know-more-btn{
+    width: 170px;
+    border: none;
+    background: #fff;
+        border: 1px solid #dcdcdc;
+        color: #0399f0;
+}
+.know-more-btn:hover{
+    background: #0399f0;
+    color: #fff;
+}

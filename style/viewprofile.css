@@ -1,0 +1,245 @@
+
+
+ .featured 
+ {
+    position: relative;
+    right: 20px;
+    background: #ec1839;
+    width: max-content;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 1px 2px;
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.img-raised {
+    box-shadow: 0 3px 6px #aba9aa;
+    border-top: none;
+    background: #fff;
+    transition: transform .4s,box-shadow .4s;
+}
+.profile-d-flex {
+    display: flex;
+    align-items: center;
+}
+.trainer-name {
+    font-size: 12px;
+    color: #00adee;
+    line-height: 15px;
+    font-weight: 600;
+}
+.experience-year {
+    color: #403340;
+    font-size: 11px;
+    font-weight: 600;
+    display: inline-block;
+}
+.doctor-text {
+    color: #6d6e70;
+}
+.doctor-text p, .languagediv {
+    font-size: 10px!important;
+    font-weight: 600;
+    margin-bottom: 6px;
+    line-height: normal;
+}
+ .blueColor {
+    margin-left: 12em;
+    color: #0399f0;
+}
+.vertical-btn ul {
+    list-style: none;
+}
+.vertical-btn ul li span {
+    width: 12em;
+}
+/* .nav-item .nav-link {
+    border-radius: 30px;
+    text-transform: capitalize;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+        background-color: #403340;
+} */
+/* .nav-link.active:hover {
+    background-color: #9a9a9a;
+    color: #fff;
+} */
+
+.online-btn{
+        border-radius: 30px;
+    padding: 10px;
+    text-transform: capitalize;
+    max-width: 142px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #403340;
+    color: #fff;
+}
+.online-btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+.symptoms-para p {
+    font-size: 14px;
+    color: #403340;
+    font-weight: 400;
+    margin: 3px 0;
+    line-height: normal;
+}
+.para-row {
+     max-width: 43.9em;
+    border-top: 1px solid #aba9aa;
+    text-align: left;
+}
+
+.skills-box {
+    border-radius: 5px;
+    padding: 0 11px;
+    margin-left: 5px;
+    color: #707070;
+    font-size: 10px!important;
+    font-weight: 600;
+    margin-top: 2px;
+    display: inline-block;
+    line-height: 17px;
+        background-color: #ffd895;
+}
+.service-margin {
+    margin-bottom: 15px;
+}
+.serviceImage {
+    display: flex;
+}
+.custom-font-style {
+   font-size: 12px;
+    color: #504e70;
+    
+    font-weight: 600;
+    margin: 3px 11px;
+    font-family: "Source Sans Pro",sans-serif;
+    line-height: 15px;
+    padding-right: 13px;
+}
+.nav-tabs>.nav-item>.nav-link.active {
+    color: #0399f0;
+    background-color: #fff;
+    border-radius: 0;
+    font-weight: 600;
+    
+}
+.session-card {
+    padding: 30px 10px;
+}
+#updateService .symptoms-para h2, .h6, h6 {
+    color: #005495;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.session-card .fee, .online-wrap .tab-content .tab-pane div p.fee {
+    font-weight: 600;
+    color: #005495;
+    font-size: 10px;
+}
+.profile-shadow:hover {
+    box-shadow: 0 6px 9px #ddf6ff;
+}
+.tab-content .tab-pane div p.fee span:nth-child(2) {
+    color: #fca464;
+}
+.tab-content .tab-pane div p.fee span:nth-child(1) {
+    text-decoration: line-through;
+}
+.experience-year {
+    color: #403340;
+    font-size: 11px;
+    font-weight: 600;
+    display: inline-block;
+}
+.btn, .navbar .navbar-nav>a.btn {
+    border-width: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.35em;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #a8a9aa;
+    color: #fff;
+}
+ .book-btn:hover{
+     background-color: #0399f0;
+     color: #fff;
+     box-shadow: none;
+ }
+
+
+ .main-card{
+        box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
+       
+ }
+ .side-div{
+     margin-top: 25px;
+ }
+ .custom-list {
+    color: #a8a9aa;
+    list-style: none;
+    font-size: 13px;
+    padding: 0 20px;
+    line-height: 24px;
+ }
+ .custom-list a {
+    color: #403340;
+    padding: 0!important;
+    background: 0 0;
+    margin: 0;
+ }
+
+ .div-style {
+    background: #faeceb!important;
+    padding-bottom: 16px!important;
+ }
+.calculator-box {
+    background-color: #0399f0;
+    color: #faeceb!important;
+    font-weight: 300;
+}
+.login-div {
+    font-size: 13px;
+    color: #403340;
+    padding: 0 20px;
+}
+.faq-btn {
+    background: #0399f0;
+    font-size: 10px;
+    margin: 0;
+}
+.articles {
+    background-color: #00a2ff;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 14px 20px;
+
+}
+.save-changes-btn{
+    background-color: #00a2ff;
+    color: #fff;
+}
+
+
+
+
+@media only screen and (min-width: 567px)
+{
+ .vertical-btn ul li {
+    display: inline-flex;
+    cursor: pointer;
+}
+}

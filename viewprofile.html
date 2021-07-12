@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="aos.css" />
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- it will load fast so i have pasted in file -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!----------------- Added Stylesheets------- -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/commonstyle.css" />
+    <link rel="stylesheet" href="./style/viewprofile.css">
+
+    <!-- <link rel="stylesheet" href="commonstyle.css" > -->
+</head>
+
+<body>
+
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top  animated fadeInUp" id="myNavbar">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Yoga<span style="color: #0399f0;">Buddyz</span></a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav"
+                aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span> <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="yoga class schedule.html" class="nav-link">Yoga Class Schedule</a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Programmes & Courses
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="trainerlist.html">Consulation with our trainers</a>
+                            <a class="dropdown-item" href="onlineevent.html">Online events</a>
+                            <a class="dropdown-item" href="#">Yoga Aasan</a>
+                            <a class="dropdown-item" href="blog.html">Blog</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallary.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="signup.html" class="nav-link ">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <!--End of Navbar-->
+
+
+
+
+
+    <!-- start of viewprofile -->
+
+    <div class="container " style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 side-div">
+
+                <div class="main-card mt-4 mx-3 mx-lg-0">
+                    <ul class="custom-list pt-3 flex-column">
+                        <li>
+                            <h5>OTHER SERVICES</h5>
+                        </li>
+
+                        <li><a class="nav-link active" href="">Medical Yoga Therapy
+                            </a></li>
+
+                        <li><a class="nav-link active" href="">Prenatal Physiotherapy</a>
+                        </li>
+                        <li><a class="nav-link active" href="">Power Vinyasa Yoga</a></li>
+                        <li><a class="nav-link active" href="">Kids Yoga Training</a></li>
+                        <li><a class="nav-link active" href="">Customized Courses</a></li>
+                    </ul>
+                    <div class="div-style d-none d-sm-block">
+                        <h5 class="articles calculator-box">TALK TO OUR ADVISORs</h5>
+                        <p class="card-description login-div">Talk to a advisors directly and get counselling about
+                            the services.</p>
+                        <div class="col-md-12 text-center"><button class="btn faq-btn my-3 btn-color btn-round"
+                                type="button" data-toggle="modal" data-target="#practionerModel">CLICK HERE</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="modal fade" id="practionerModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-center" id=" exampleModalLabel">Talk To our Trainers</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span></button>
+                        </div>
+                        <div class="practioner-div text-center">Please provide your contact details and our advisors
+                            will
+                            get in touch with you soon.
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+
+                                <div class="form-group align-items-center row">
+                                    <div class="col-md-12">
+                                        <select class="form-select w-100 p-2" aria-label="Default select example">
+                                            <option selected>Select Issue</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+
+
+                                </div>
+                                <div class="form-group align-items-center">
+                                    <input class="form-control w-100 p-2" id="full-name" type="text" placeholder="Name"
+                                        required="">
+
+
+                                </div>
+                                <div class="form-group align-items-center">
+                                    <input class="form-control w-100 p-2" id="full-name" type="text"
+                                        placeholder="Enter Email" required="">
+
+
+                                </div>
+                                <div class="form-group align-items-center">
+                                    <input class="form-control w-100 p-2" id="full-name" type="text"
+                                        placeholder="Enter City" required="">
+
+
+                                </div>
+                                <div class="form-group align-items-center">
+                                    <input class="form-control w-100 p-2" id="full-name" type="text"
+                                        placeholder="Enter Mobile" required="">
+
+
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">I agree to the Terms and
+                                        Conditions</label>
+                                </div>
+
+
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn save-changes-btn">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-9 col-lg-9">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 d-flex">
+                        <div class="mb-2" style="color:#00adee;cursor: pointer;display:flex">
+                            <i class="fa fa-angle-left" aria-hidden="true" style="font-size:30px;"> </i>
+                            <div class="align-self-center pl-1" style="font-size:14px;font-weight:600;
+                    ">
+                                <a href="trainerlist.html">Back to
+                                    listing</a>
+                            </div>
+                        </div>
+                        <div class="align-self-center"
+                            style="width:100%;text-align:end;color:#00adee;font-weight:600;text-transform:uppercase"><a
+                                href="">Daily Yoga</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-raised card-footer pr-3">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-7">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="featured">featured </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col profile-d-flex"><img class="doctor-icons rounded-circle"
+                                        src="./image/trainerimg.jpg"
+                                        onerror="if (this.src != 'https://bpwsaskatoon.com/isl/themes/bpw/img/default-profile.jpg') this.src = 'https://bpwsaskatoon.com/isl/themes/bpw/img/default-profile.jpg';"
+                                        style="max-width:40%">
+                                    <div class="align-self-center ml-2">
+                                        <h5 class="mb-0 trainer-name">Deepak Gupta</h5>
+                                        <p class="my-0 experience-year">Experience: <span> 9 years </span></p>
+                                        <div class="doctor-text">
+                                            <p class="my-0">Master Of Arts (Yoga)</p>
+                                            <p>Yoga Expert</p>
+                                            <div class="mt-1">
+                                                <div class="fa fa-star-o" aria-hidden="true" style="color:#fca464">
+                                                </div>
+                                                <div class="fa fa-star-o" aria-hidden="true" style="color:#fca464">
+                                                </div>
+                                                <div class="fa fa-star-o" aria-hidden="true" style="color:#fca464">
+                                                </div>
+                                                <div class="fa fa-star-o" aria-hidden="true" style="color:#fca464">
+                                                </div>
+                                                <div class="fa fa-star-o" aria-hidden="true" style="color:#fca464">
+                                                </div>
+                                            </div>
+                                            <div class="languagediv my-0">
+                                                <div class="languagePreference pr-2">
+                                                    <p class="d-lg-inline-block mt-lg-2">Language Known:</p><span
+                                                        class="px-1">English</span><span class="px-1">Hindi</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5 pt-3">
+                            <div class="row flex-direction-reverse">
+                                <div class="text-center vertical-btn">
+                                    <div class="blueColor">MODE</div>
+                                    <ul class="mt-4 mb-0 pl-0 nav-pills nav-pills-primary flex-column">
+                                        <li class="mr-1 mr-lg-0 nav-item"><span class="mt-2 mt-lg-1 mode-margin"
+                                                style="opacity:1">Video|Chat|Telephone </span><a class=" online-btn"
+                                                href="">Online</a>
+                                        </li>
+                                        <li class="mr-1 mr-lg-0 nav-item"></li>
+                                        <li class="mr-1 mr-lg-0 nav-item"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-9 offset-lg-2">
+                            <div class="row">
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="symptoms-para">
+                                        <p style="color:#00adee;text-align:justify;">PROFILE </p>
+                                        <div class="para-row"></div>
+                                        <div class="vendorHalfText" style="text-align: justify;">
+                                            <p></p>
+                                            <p>Deepak is a Yoga Teacher, Wellness Coach &amp; and Health Care Expert
+                                                with
+                                                advanced
+                                                qualifications from premier Yoga Schools of the world viz The Yoga
+                                                Institute
+                                                Santacruz Mumbai, Kaivalyadhama Lonavala, SVYASA Bengaluru and National
+                                                Institute of
+                                                Ayurveda. He specializes in integrating yoga with other systems of...
+                                            </p>
+                                            <p> <a class="vendorProfileReadMore" href="">Read More </a></p>
+                                            <p></p>
+                                        </div>
+                                        <div class="vendorRestText" style="text-align: justify; display: none;"><span
+                                                class="content">
+                                                <p>Deepak is a Yoga Teacher, Wellness Coach &amp; Antenatal Care Expert
+                                                    with
+                                                    advanced qualifications from premier Yoga Schools of the world viz
+                                                    The
+                                                    Yoga
+                                                    Institute Santacruz Mumbai, Kaivalyadhama Lonavala, SVYASA Bengaluru
+                                                    and
+                                                    National Institute of Ayurveda. he specializes in integrating yoga
+                                                    with
+                                                    other
+                                                    systems of medicine and devising holistic healing regimes. Her
+                                                    specializations
+                                                    in Garbhsanskar and Ayurveda Diet &amp; Nutrition, helps her to
+                                                    create
+                                                    unique
+                                                    wellness regimes for females. She works closely with Gynecologists
+                                                    and
+                                                    obstetricians in integrating Yoga with modern medicine as a tool to
+                                                    empower
+                                                    expecting mothers. With more than Six (6) years of Yoga Education
+                                                    and
+                                                    over
+                                                    Eleven (11) of Teaching Experience in yoga, Priyanka strives to make
+                                                    yoga,
+                                                    simple, engaging and clear, in its pure classical form, so one can
+                                                    take
+                                                    charge
+                                                    of their lives</p>
+                                                <p> <a class="vendorProfileReadLess" href="#44">Read Less </a></p>
+                                            </span></div>
+                                    </div>
+                                    <div class="languagediv my-0 d-none d-lg-block m-0 p-0">
+                                        <div class="languagePreference1 p-0 hello">
+                                            <p class="d-lg-inline-block m-0"
+                                                style="color:#6d6e70; font-size:10px!important; font-weight:600;line-height: 25px;">
+                                                Skills Known:<span class="skills-box">Asana</span><span
+                                                    class="skills-box">Pranayama</span><span class="skills-box">Yoga
+                                                    Nidra</span><span class="skills-box">Meditation</span><span
+                                                    class="skills-box">Hath Yoga</span><span class="skills-box">Power
+                                                    Yoga</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-12 d-sm-none languagediv p-0 mt-2">
+                                        <div class="languagePreference1">
+                                            <p class="d-lg-inline-block mb-0"
+                                                style="color:#6d6e70; font-size:10px!important; font-weight:600;line-height: 25px;">
+                                                Skills Known:<br class="m-0"><span class="skills-box">Asana</span><span
+                                                    class="skills-box">Pranayama</span><span class="skills-box">Yoga
+                                                    Nidra</span><span class="skills-box">Meditation</span><span
+                                                    class="skills-box">Hath Yoga</span><span class="skills-box">Power
+                                                    Yoga</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row onlineModeDetails">
+                                        <div class="col-md-12 col-lg-12 mt-1 mt-lg-2 pl-0">
+                                            <div class="row service-margin">
+                                                <div class="col-md-4 col-4">
+                                                    <div class="serviceImage"><i
+                                                            class="pb-5 pb-lg-4 ml-2 fa fa-users"></i>
+
+                                                        <p class="custom-font-style ">Expert And Focused Yoga Trainer
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-4">
+                                                    <div class="serviceImage"><i class="fa fa-flask"></i>
+                                                        <p class="custom-font-style">Scientific &amp; Personalised
+                                                            Approach
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4 col-4">
+                                                    <div class="serviceImage"><i class="fa fa-calendar"></i>
+                                                        <p class="custom-font-style">Flexible Timings and refund policy
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 pt-3">
+                        <ul class="nav nav-tabs nav-pills-primary" role="tablist">
+                            <li class="nav-item"><a class="active nav-link custom-nav-tab show" data-toggle="tab"
+                                    href="#allpackages" role="tablist">All</a></li>
+                            <li class="nav-item"><a class="nav-link custom-nav-tab show" data-toggle="tab"
+                                    href="#package0" role="tablist"> Trial Session</a></li>
+                            <li class="nav-item"><a class="nav-link custom-nav-tab show" data-toggle="tab"
+                                    href="#package1" role="tablist"> Packages</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tab-content">
+                            <div class="trial tab-pane active show" id="allpackages">
+                                <div class="session-card profile-shadow" id="">
+                                    <div class="row">
+                                        <div class="col-md-3 col-lg-3"><label class="form-check-label"><span
+                                                    class="form-check-sign h6">FEE
+                                                </span>
+                                                <p class="fee"><i class="fa fa-inr"></i> 600</p>
+                                                <p class="fee"><span><i class="fa fa-inr"></i>700</span><span
+                                                        class="ml-lg-1">(14% off)</span></p>
+                                            </label></div>
+                                        <div class="col-md-9 col-lg-9">
+                                            <h6 class="mt-1 mb-0 profile-hover">Yoga for Fitness
+                                            </h6>
+                                            <div>
+                                                <div class="experience-year">Session: 1</div>
+                                                <div class="experience-year ml-lg-3">Duration:<span>60 Minutes </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-7 col-lg-8 offset-md-2 mt-3 mt-lg-0">
+                                            <div class="online-text" style="text-align:justify">
+                                                <div class="packSessionDetailHalfText0">
+                                                    <p></p>
+                                                    <p>Fitness yoga helps you to prepare for normal
+                                                        delivery by
+                                                        strengthening pelvic and abdominal muscles, improving blood
+                                                        circulation,
+                                                        reducing associated discomforts and providing flexibility to
+                                                        your
+                                                        changing
+                                                        body. </p>
+                                                    <p></p>
+                                                    <p>Program Features:</p>
+                                                    <ul>
+                                                        <li>Introduction and fitness assessment.</li>
+                                                        <li>Relaxation and breathing techniques to loosen...<p></p>
+                                                            <p> <a class="packSessionDetailKnowMore pr-3"
+                                                                    sessiontext="0" href="#007">Read more</a></p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="packSessionDetailFullText0" style="display:none">
+                                                    <p></p>
+                                                    <p>Fitness yoga helps you to prepare for normal
+                                                        delivery by
+                                                        strengthening pelvic and abdominal muscles, improving blood
+                                                        circulation,
+                                                        reducing associated discomforts and providing flexibility to
+                                                        your
+                                                        changing
+                                                        body. </p>
+                                                    <p><strong>Program Features:</strong></p>
+                                                    <ul>
+                                                        <li>Introduction and fitness assessment.</li>
+                                                        <li>Relaxation and breathing techniques to loosen up the body.
+                                                        </li>
+                                                        <li>YOG asanas focused on your trimester, body strength &amp;
+                                                            pregnancy
+                                                            discomforts.</li>
+                                                        <li>Meditation, and yoga nidra asana to refresh the mind and
+                                                            body.
+                                                        </li>
+                                                    </ul>
+                                                    <p><strong>Other Important Details:</strong></p>
+                                                    <ul>
+                                                        <li><strong>Mode of Service Delivery:</strong> Online (via chat,
+                                                            Whatsapp
+                                                            video call, telephone)</li>
+                                                        <li><strong>No of Session:</strong> 1 (Valid for 1 day) </li>
+                                                        <li><strong>Eligibility:</strong> Lorem ipsum dolor sit amet
+                                                            consectetur adipisicing elit. Et quo, sunt nam numquam quasi
+                                                            architecto ipsam nobis a quidem laborum.
+                                                            &amp; Critical pregnancy (if
+                                                            indicated by
+                                                            Gynaecologist for extra precautions).Person who are in the
+                                                            first
+                                                            trimester can take relaxation and meditation classes. </li>
+                                                        <li><strong>Note: </strong>Gynaecologist recommendation is
+                                                            advisable
+                                                            before
+                                                            starting the yoga/exercises during Pregnancy.</li>
+                                                    </ul>
+                                                    <p></p>
+                                                    <p> <a class="packSessionDetailKnowLess pr-3" sessiontext="0"
+                                                            href="#007">Read
+                                                            less</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-lg-2">
+                                            <div class="mt-4 mt-lg-0 text-center">
+                                                <div class="discount mb-1" hidden="" style="font-weight:500">Book by
+                                                    paying
+                                                    50%
+                                                    advance </div><button class="px-3 btn mb-0 book-btn" type="button"
+                                                    data-toggle="modal" data-target="#myModal" data-backdrop="static"
+                                                    data-keyboard="false">BOOK NOW
+                                                </button><a
+                                                    class="enquiryData submit d-lg-block text-center m-lg-0 ml-1"
+                                                    href="#" data-toggle="modal" data-package="60b99e141eee5971680d917d"
+                                                    data-vendor="609e41dc41f10d27a037a1d5"
+                                                    data-target="#enquiryModal">Submit
+                                                    Enquiry</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="session-card profile-shadow" id="">
+                                    <div class="row">
+                                        <div class="col-md-3 col-lg-3"><label class="form-check-label"><span
+                                                    class="form-check-sign h6">FEE
+                                                </span>
+                                                <p class="fee">₹ 8500</p>
+                                                <p class="fee"><span>₹ 10000</span><span class="ml-lg-1">(15%
+                                                        off)</span>
+                                                </p>
+                                            </label></div>
+                                        <div class="col-md-9 col-lg-9">
+                                            <h6 class="mt-1 mb-0 profile-hover">Yoga for High Blood Pressure
+                                            </h6>
+                                            <div>
+                                                <div class="experience-year">Sessions: 12/month</div>
+                                                <div class="experience-year ml-lg-3">Duration:<span>60 Minutes </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-7 col-lg-8 offset-md-2 mt-3 mt-lg-0">
+                                            <div class="online-text" style="text-align:justify">
+                                                <div class="packSessionDetailHalfText1">
+                                                    <p></p>
+                                                    <p>Usually hypertension is defined as blood pressure above 140/90,
+                                                        and
+                                                        is considered severe if the pressure is above
+                                                        180/120.
+                                                        High blood pressure often has no symptoms. Over time, if
+                                                        untreated,
+                                                        it can cause health conditions, such as heart
+                                                        disease and stroke.
+                                                        Eating a healthier diet with less salt, exercising regularly and
+                                                        taking medication can help lower blood pressure....</p>
+                                                    <p> <a class="packSessionDetailKnowMore pr-3" sessiontext="1"
+                                                            href="#007">Read
+                                                            more</a></p>
+                                                </div>
+                                                <div class="packSessionDetailFullText1" style="display:none">
+                                                    <p></p>
+                                                    <p>Usually hypertension is defined as blood pressure above 140/90,
+                                                        and
+                                                        is considered severe if the pressure is above
+                                                        180/120.
+                                                        High blood pressure often has no symptoms. Over time, if
+                                                        untreated,
+                                                        it can cause health conditions, such as heart
+                                                        disease and stroke.
+                                                        Eating a healthier diet with less salt, exercising regularly and
+                                                        taking medication can help lower blood pressure.
+                                                    </p>
+                                                    <p><strong>Program Features:</strong></p>
+                                                    <ul>
+                                                        <li>Regular assessment of health status.</li>
+                                                        <li>Relaxation and breathing techniques to loosen the up body.
+                                                        </li>
+                                                        <li>Simple YOG asanas focused on your trimester and current
+                                                            health
+                                                            status
+                                                        </li>
+                                                        <li>Meditation, and yoga nidra asana to refresh the mind and
+                                                            body.
+                                                        </li>
+                                                    </ul>
+                                                    <p><strong>Other Important Details:</strong></p>
+                                                    <ul>
+                                                        <li><strong>Mode of Service Delivery:</strong> Online (What’s
+                                                            app
+                                                            Video
+                                                            call, or any other Video calling mode)</li>
+                                                        <li><strong>No of Sessions: </strong></li>
+                                                        <li><strong>Eligibility:</strong> Lorem ipsum, dolor sit amet
+                                                            consectetur adipisicing elit. Nulla!
+                                                        </li>
+                                                        <li><strong>Note:</strong> Gynaecologist recommendation is
+                                                            advisable
+                                                            before
+                                                            starting the yoga/exercises during Pregnancy.</li>
+                                                    </ul>
+                                                    <p></p>
+                                                    <p> <a class="packSessionDetailKnowLess pr-3" sessiontext="1"
+                                                            href="#007">Read
+                                                            less</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-lg-2">
+                                            <div class="mt-4 mt-lg-0 text-center">
+                                                <div class="discount mb-1" style="font-weight:500">Book by paying 50%
+                                                    advance </div>
+                                                <button class="px-3 btn mb-0" type="button" data-toggle="modal"
+                                                    data-target="#myModal" data-backdrop="static"
+                                                    data-keyboard="false">BOOK
+                                                    NOW
+                                                </button><a
+                                                    class="enquiryData submit d-lg-block text-center m-lg-0 ml-1"
+                                                    href="#" data-toggle="modal" data-package="60b9a00f1eee5971680d9183"
+                                                    data-vendor="609e41dc41f10d27a037a1d5"
+                                                    data-target="#enquiryModal">Submit
+                                                    Enquiry</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="trial tab-pane" id="package0">
+                                <div class="session-card profile-shadow">
+                                    <div class="row">
+                                        <div class="col"><label class="form-check-label"><span
+                                                    class="form-check-sign h6">FEE</span>
+                                                <p class="fee">₹ 600</p>
+                                                <p class="fee"><span>₹ 700</span><span class="ml-lg-1">(14% off) </span>
+                                                </p>
+                                            </label></div>
+                                        <div class="col">
+                                            <h6 class="mt-1 mb-0">Yoga for Low Lying Placenta (Trial Session)</h6>
+                                            <div>
+                                                <div class="experience-year">Session: 1</div>
+                                                <div class="experience-year ml-lg-3">Duration:<span>60 Minutes </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-7 col-lg-8 offset-md-2 mt-3 mt-lg-0">
+                                            <div class="online-text" style="text-align:justify">
+                                                <div class="vendorHalfPackageType0">
+                                                    <p></p>
+                                                    <p>Fitness yoga during pregnancy helps you to prepare for normal
+                                                        delivery by
+                                                        strengthening pelvic and abdominal muscles, improving blood
+                                                        circulation,
+                                                        reducing associated discomforts and providing flexibility to
+                                                        your
+                                                        changing
+                                                        body. </p>
+                                                    <p></p>
+                                                    <p>Program Features:</p>
+                                                    <ul>
+                                                        <li>Introduction and fitness assessment.</li>
+                                                        <li>Relaxation and breathing techniques to loosen...<p><a
+                                                                    class="vendorPackageKnowMore" vendorpackages="0"
+                                                                    href="#1">Read
+                                                                    more</a></p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="vendorFullPackageType0" style="display:none"><span
+                                                        class="content">
+                                                        <p>Fitness yoga during pregnancy helps you to prepare for normal
+                                                            delivery by
+                                                            strengthening pelvic and abdominal muscles, improving blood
+                                                            circulation,
+                                                            reducing associated discomforts and providing flexibility to
+                                                            your
+                                                            changing body. </p>
+                                                        <p><strong>Program Features:</strong></p>
+                                                        <ul>
+                                                            <li>Introduction and fitness assessment.</li>
+                                                            <li>Relaxation and breathing techniques to loosen up the
+                                                                body.
+                                                            </li>
+                                                            <li>YOG asanas focused on your trimester, body strength
+                                                                &amp;
+                                                                pregnancy
+                                                                discomforts.</li>
+                                                            <li>Meditation, and yoga nidra asana to refresh the mind and
+                                                                body. </li>
+                                                        </ul>
+                                                        <p><strong>Other Important Details:</strong></p>
+                                                        <ul>
+                                                            <li><strong>Mode of Service Delivery:</strong> Online (via
+                                                                chat,
+                                                                Whatsapp video call, telephone)</li>
+                                                            <li><strong>No of Session:</strong> 1 (Valid for 1 day)
+                                                            </li>
+                                                            <li><strong>Eligibility:</strong> All pregnant females
+                                                                except
+                                                                females
+                                                                who are in the first trimester &amp; Critical pregnancy
+                                                                (if
+                                                                indicated by Gynaecologist for extra precautions).
+                                                                Females
+                                                                who are
+                                                                in the first trimester can take relaxation and
+                                                                meditation
+                                                                classes.
+                                                            </li>
+                                                            <li><strong>Note: </strong>Gynaecologist recommendation is
+                                                                advisable
+                                                                before starting the yoga/exercises during Pregnancy.
+                                                            </li>
+                                                        </ul>
+                                                    </span>
+                                                    <p><a class="vendorPackageKnowLess" vendorpackages="0"
+                                                            href="#1">Read
+                                                            less</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-lg-2">
+                                            <div class="mt-4 mt-lg-0 text-center">
+                                                <div class="discount mb-1" hidden="" style="font-weight:500">Book by
+                                                    paying
+                                                    50%
+                                                    advance </div><button class="px-3 btn mb-0 book-btn" type="button"
+                                                    data-toggle="modal" data-target="#myModal" data-backdrop="static"
+                                                    data-keyboard="false">BOOK NOW
+                                                </button><a
+                                                    class="enquiryData submit d-lg-block text-center m-lg-0 ml-1"
+                                                    href="#" data-toggle="modal" data-package="60b99e141eee5971680d917d"
+                                                    data-vendor="609e41dc41f10d27a037a1d5"
+                                                    data-target="#enquiryModal">Submit
+                                                    Enquiry</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="trial tab-pane" id="package1">
+                                <div class="session-card profile-shadow">
+                                    <div class="row">
+                                        <div class="col"><label class="form-check-label"><span
+                                                    class="form-check-sign h6">FEE</span>
+                                                <p class="fee">₹ 8500</p>
+                                                <p class="fee"><span>₹ 10000</span><span class="ml-lg-1">(15% off)
+                                                    </span>
+                                                </p>
+                                            </label></div>
+                                        <div class="col">
+                                            <h6 class="mt-1 mb-0">Yoga for Low Lying Placenta (Individual Package)</h6>
+                                            <div>
+                                                <div class="experience-year">Sessions: 12/month</div>
+                                                <div class="experience-year ml-lg-3">Duration:<span>60 Minutes </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-7 col-lg-8 offset-md-2 mt-3 mt-lg-0">
+                                            <div class="online-text" style="text-align:justify">
+                                                <div class="vendorHalfPackageType0">
+                                                    <p></p>
+                                                    <p>The placenta is attached close to the cervix and the chances of
+                                                        bleeding are
+                                                        high. Therefore, your gynae will again assess the status at 20th
+                                                        week scan
+                                                        and will approve if find you fit for Yoga. The experts give
+                                                        special...</p>
+                                                    <p><a class="vendorPackageKnowMore" vendorpackages="0"
+                                                            href="#1">Read
+                                                            more</a>
+                                                    </p>
+                                                </div>
+                                                <div class="vendorFullPackageType0" style="display:none"><span
+                                                        class="content">
+                                                        <p>The placenta is attached close to the cervix and the chances
+                                                            of
+                                                            bleeding
+                                                            are high. Therefore, your gynae will again assess the status
+                                                            at
+                                                            20th
+                                                            week scan and will approve if find you fit for Yoga. The
+                                                            experts
+                                                            give
+                                                            special attention to designing and conducting yoga sessions
+                                                            in
+                                                            these
+                                                            conditions. </p>
+                                                        <p><strong>Program Features:</strong></p>
+                                                        <ul>
+                                                            <li>Regular assessment of health status.</li>
+                                                            <li>Relaxation and breathing techniques to loosen the up
+                                                                body.
+                                                            </li>
+                                                            <li>Simple YOG asanas focused on your trimester and current
+                                                                health
+                                                                status</li>
+                                                            <li>Meditation, and yoga nidra asana to refresh the mind and
+                                                                body.</li>
+                                                        </ul>
+                                                        <p><strong>Other Important Details:</strong></p>
+                                                        <ul>
+                                                            <li><strong>Mode of Service Delivery:</strong> Online
+                                                                (What’s
+                                                                app Video
+                                                                call, or any other Video calling mode)</li>
+                                                            <li><strong>No of Sessions: </strong></li>
+                                                            <li><strong>Eligibility:</strong> Females who are having low
+                                                                lying
+                                                                placenta</li>
+                                                            <li><strong>Note:</strong> Gynaecologist recommendation is
+                                                                advisable
+                                                                before starting the yoga/exercises during Pregnancy.
+                                                            </li>
+                                                        </ul>
+                                                    </span>
+                                                    <p><a class="vendorPackageKnowLess" vendorpackages="0"
+                                                            href="#1">Read
+                                                            less</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-lg-2">
+                                            <div class="mt-4 mt-lg-0 text-center">
+                                                <div class="discount mb-1" style="font-weight:500">Book by paying 50%
+                                                    advance </div>
+                                                <button class="px-3 btn mb-0" type="button" data-toggle="modal"
+                                                    data-target="#myModal" data-backdrop="static"
+                                                    data-keyboard="false">BOOK
+                                                    NOW
+                                                </button><a
+                                                    class="enquiryData submit d-lg-block text-center m-lg-0 ml-1"
+                                                    href="#" data-toggle="modal" data-package="60b9a00f1eee5971680d9183"
+                                                    data-vendor="609e41dc41f10d27a037a1d5"
+                                                    data-target="#enquiryModal">Submit
+                                                    Enquiry</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- scripts -->
+
+    <script src="script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
