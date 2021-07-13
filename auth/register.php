@@ -13,20 +13,19 @@ function msg($success,$status,$message,$extra = []){
     ],$extra);
 }
 
-// INCLUDING DATABASE AND MAKING OBJECT
+
 require __DIR__.'/classes/Database.php';
 $db_connection = new Database();
 $conn = $db_connection->dbConnection();
 
-// GET DATA FORM REQUEST
 $data = json_decode(file_get_contents("php://input"));
 $returnData = [];
 
-// IF REQUEST METHOD IS NOT POST
+
 if($_SERVER["REQUEST_METHOD"] != "POST"):
     $returnData = msg(0,404,'Page Not Found!');
 
-// CHECKING EMPTY FIELDS
+
 elseif(!isset($data->name) 
     || !isset($data->email) 
     || !isset($data->password)
@@ -38,7 +37,7 @@ elseif(!isset($data->name)
     $fields = ['fields' => ['name','email','password']];
     $returnData = msg(0,422,'Please Fill in all Required Fields!',$fields);
 
-// IF THERE ARE NO EMPTY FIELDS THEN-
+
 else:
     
     $name = trim($data->name);
@@ -70,7 +69,7 @@ else:
 
                 $insert_stmt = $conn->prepare($insert_query);
 
-                // DATA BINDING
+                
                 $insert_stmt->bindValue(':name', htmlspecialchars(strip_tags($name)),PDO::PARAM_STR);
                 $insert_stmt->bindValue(':email', $email,PDO::PARAM_STR);
                 $insert_stmt->bindValue(':password', password_hash($password, PASSWORD_DEFAULT),PDO::PARAM_STR);
